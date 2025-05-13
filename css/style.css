@@ -1,0 +1,54 @@
+@import url(".reset.css");
+
+body {
+    background-color: #b0b0b0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container{
+    width: 300px;
+}
+
+header {
+    background-color: #8b1c62;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.main{
+    background-color: #40c08b;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+article{
+    background-color: #e91363;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+aside {
+  background-color: #0d5e9c;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #f27e28;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}
