@@ -52,3 +52,20 @@ footer {
   padding: 15px;
   border-radius: 10px;
 }
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .sidebar {
+    flex: 1;
+  }
+
+  .main-content {
+    flex: 2;
+  }
+}
